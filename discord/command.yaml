@@ -1,0 +1,33 @@
+list:
+- command:
+    action: ahk
+    exe_path: ahk/OnOff micro.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - выключи микрофон
+  - офни микрофон
+  - выключи микро
+  - офни микро
+  - включи микрофон
+  - включи микро
+- command:
+    action: ahk
+    exe_path: ahk/OnOff sound.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - выключи звук в дискорде
+  - отключи звук в дискорде
+  - выруби звук в дискорде
+  - офни звук в дискорде
+  - включи звук в дискорде
+  - вруби звук в дискорде
