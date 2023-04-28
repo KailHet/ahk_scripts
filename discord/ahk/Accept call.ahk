@@ -1,0 +1,1 @@
+Send, {Ctrl down}{Enter}

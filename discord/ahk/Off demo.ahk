@@ -1,0 +1,1 @@
+Send, {Ctrl down}{Shift down}V {Ctrl up}{Shift up}

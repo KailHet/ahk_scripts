@@ -31,3 +31,71 @@ list:
   - офни звук в дискорде
   - включи звук в дискорде
   - вруби звук в дискорде
+- command:
+    action: ahk
+    exe_path: ahk/Off demo.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - выключи демку
+  - отключи демку
+  - выруби демку
+  - офни демку
+  - выключи демонстрацию
+  - отключи демонстрацию
+  - выруби демонстрацию
+  - офни демонстрацию
+- command:
+    action: ahk
+    exe_path: ahk/Open discord.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - открой дискорд
+  - сделай дискорд активным
+  - включи дискорд
+  - запусти дискорд
+- command:
+    action: ahk
+    exe_path: ahk/Open mail.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - открой почту в дискорде
+- command:
+    action: ahk
+    exe_path: ahk/Accept call.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - прими вызов
+  - ответь на звонок
+  - возьми трубку
+- command:
+    action: ahk
+    exe_path: ahk/Decline call.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - сбрось вызов
+  - отклони вызов
