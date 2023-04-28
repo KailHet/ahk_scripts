@@ -1,0 +1,43 @@
+list:
+- command:
+    action: ahk
+    exe_path: ahk/StopStart music.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - открой музыку
+  - запусти музыку
+  - включи музыку
+  - выключи музыку
+  - выруби музыку
+  - офни музыку
+- command:
+    action: ahk
+    exe_path: ahk/Next.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - следующий трек
+  - следующая песня
+  - следующая музыка
+- command:
+    action: ahk
+    exe_path: ahk/Prev.exe
+    exe_args:
+  voice:
+    sounds:
+    - ok1
+    - ok2
+    - ok3
+  phrases:
+  - предыдущий трек
+  - предыдущая песня
+  - предыдущая музыка
